@@ -41,4 +41,10 @@ describe Package do
     expect(solar_package.contents).to eq ['Battery', 'Photovoltaics Cells']
     expect(solar_package.handlings).to eq ['land route only', 'keep cool']
   end
+
+  it 'clear the package' do
+    expect(Package.count).to eq 2
+    Package.clear
+    expect(Package.count).to eq 0
+  end
 end
