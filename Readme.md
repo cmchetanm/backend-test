@@ -11,6 +11,8 @@ $ bundle install
 $ rspec package_spec.rb
 ```
 
+## Do not create PR!
+
 Homework created by @binary-koan (https://github.com/binary-koan)
 
 > I make it look different so that it doesn't look like I just copied it!
